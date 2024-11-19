@@ -19,7 +19,7 @@ const portfolios = [
     siteUrl: "#",
     frontendUrl: "https://github.com/SachinChauhan402/stackoverflow-frontend",
     backendUrl: "https://github.com/SachinChauhan402/sobackend",
-    deployedUrl: "https://cheerful-lamington-f1108e.netlify.app/",
+    deployedUrl: "https://monumental-cucurucho-92fa8c.netlify.app/auth",
   },
   {
     id: "02",
@@ -32,7 +32,7 @@ const portfolios = [
     siteUrl: "#",
     frontendUrl: "https://github.com/SachinChauhan402/shaypizza-frontend",
     backendUrl: "https://github.com/SachinChauhan402/shaypizza-backend",
-    deployedUrl: "https://heartfelt-faun-ffd33d.netlify.app/",
+    deployedUrl: "https://jovial-moxie-b994d0.netlify.app/",
   },
   {
     id: "03",
@@ -59,7 +59,7 @@ const portfolios = [
     siteUrl: "#",
     frontendUrl: "https://github.com/SachinChauhan402/crudf",
     backendUrl: "https://github.com/SachinChauhan402/crud",
-    deployedUrl: "https://loquacious-pudding-965dd4.netlify.app/",
+    deployedUrl: "https://jolly-lamington-b1871c.netlify.app/",
   },
   {
     id: "06",

@@ -9,152 +9,70 @@ const Services = () => {
     <section id="services">
       <div className="container lg:pt-5">
         <div className="text-center">
-          <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
+          <h2 className="text-headingColor font-bold text-3xl mb-5">
             Expertise Skills
           </h2>
-          <p className="lg:max-w-[600px] lg:mx-auto text-headingColor font-[500] text-[16px] leading-7">
+          <p className="lg:max-w-[600px] lg:mx-auto text-headingColor text-lg leading-7">
             In the context of a software developer, skills typically refer to
             the technical competencies and proficiencies related to software
             development and programming.
           </p>
         </div>
-        <div className="flex flex-col justify-center sm:py-12">
-          <div className="w-full py-3 px-2 sm:max-w-xl sm:mx-auto sm:px-0">
-            <div className="relative text-gray-700 antialiased text-sm font-semibold">
-              {/*========================vertical line running through the middle ===============   */}
-              <div className="hidden absolute w-1 sm:block bg-indigo-300 h-full left-1/2 transform-translate-x-1/2"></div>
-              {/* ======================== left card ================ */}
-              <div className="mt-6 sm:mt-0 sm:mb-12">
-                <div className="flex items-center flex-col sm:flex-row">
-                  <div className="flex justify-start w-full mx:auto items-center">
-                    <div className="w-full sm:w-1/2 sm:pr-8">
-                      <div
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
-                      >
-                        <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">
-                          Frontend Development
-                        </h3>
-                        <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          Proficient in HTML Experience in creating semantically
-                          structured HTML markup for web pages or web
-                          applications. Strong understanding of CSS (Cascading
-                          Style Sheets) to create visually appealing and
-                          responsive designs, including layout, typography, and
-                          animations. Knowledge of JavaScript programming
-                          language to enhance user interactions, handle events,
-                          manipulate the DOM (Document Object Model), and work
-                          with APIs. Familiarity with popular frontend framework
-                          such as React.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="rounded-full bg-primaryColor border-white border-4 w-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
-                    <figure>
-                      <img src={frontendImg} alt="" />
-                    </figure>
-                  </div>
-                </div>
-              </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+          {/* Frontend Development */}
+          <div className="bg-gray-100 p-6 rounded-lg shadow-lg flex flex-col items-center">
+            <figure className="mb-4">
+              <img src={frontendImg} alt="Frontend Development" className="w-16 h-16" />
+            </figure>
+            <h3 className="text-primaryColor font-semibold text-xl mb-3">
+              Frontend Development
+            </h3>
+            <p className="text-gray-700 text-sm text-center">
+              Proficient in HTML, CSS, JavaScript, and React for creating
+              responsive and dynamic web applications.
+            </p>
+          </div>
 
-              {/* ================== right card ================*/}
-              <div className="mt-6 sm:mt-0 sm:mb-12">
-                <div className="flex items-center flex-col sm:flex-row">
-                  <div className="flex justify-end w-full mx:auto items-center">
-                    <div className="w-full sm:w-1/2 sm:pl-8">
-                      <div
-                        data-aos="fade-left"
-                        data-aos-duration="1300"
-                        data-aos-delay="50"
-                        className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
-                      >
-                        <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">
-                          AWS
-                        </h3>
-                        <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          Proficient in leveraging the power of Amazon Web
-                          Services (AWS) to design, build, deploy, and scale
-                          cloud-based applications. Experienced in utilizing AWS
-                          services such as Amazon EC2, Amazon S3, and Amazon RDS
-                          to deploy and manage applications in a scalable and
-                          cost-effective manner.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="rounded-full bg-primaryColor border-white border-4 w-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
-                    <figure>
-                      <img src={appsImg} alt="" />
-                    </figure>
-                  </div>
-                </div>
-              </div>
-              <div className="mt-6 sm:mt-0 sm:mb-12">
-                <div className="flex items-center flex-col sm:flex-row">
-                  <div className="flex justify-start w-full mx:auto items-center">
-                    <div className="w-full sm:w-1/2 sm:pr-8">
-                      <div
-                        data-aos="fade-right"
-                        data-aos-duration="1200"
-                        className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
-                      >
-                        <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">
-                          Backend Development
-                        </h3>
-                        <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          Proficiency in server-side programming language like
-                          Node.js for developing the logic and functionality of
-                          web applications. Experience with backend web
-                          frameworks such as Express.js (Node.js).
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="rounded-full bg-primaryColor border-white border-4 w-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
-                    <figure>
-                      <img src={backendImg} alt="" />
-                    </figure>
-                  </div>
-                </div>
-              </div>
+          {/* AWS */}
+          <div className="bg-gray-100 p-6 rounded-lg shadow-lg flex flex-col items-center">
+            <figure className="mb-4">
+              <img src={appsImg} alt="AWS" className="w-16 h-16" />
+            </figure>
+            <h3 className="text-primaryColor font-semibold text-xl mb-3">
+              AWS
+            </h3>
+            <p className="text-gray-700 text-sm text-center">
+              Proficient in leveraging Amazon Web Services (AWS) for cloud-based
+              applications and scalable deployments.
+            </p>
+          </div>
 
-              {/* ================== right card ================*/}
-              <div className="mt-6 sm:mt-0 sm:mb-12">
-                <div className="flex items-center flex-col sm:flex-row">
-                  <div className="flex justify-end w-full mx:auto items-center">
-                    <div className="w-full sm:w-1/2 sm:pl-8">
-                      <div
-                        data-aos="fade-left"
-                        data-aos-duration="1200"
-                        className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
-                      >
-                        <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-2xl">
-                          Other Tools
-                        </h3>
-                        <p className="text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7">
-                          Proficient in utilizing Netlify, a powerful platform
-                          for web deployment and hosting.Proficient in deploying
-                          various types of applications, including web apps,
-                          APIs, and microservices, to the Heroku
-                          platform.Advanced proficiency in utilizing GitHub as a
-                          version control and collaboration platform for
-                          software development projects. Strong knowledge of
-                          MongoDB Atlas, a cloud-based database service for
-                          MongoDB.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="rounded-full bg-primaryColor border-white border-4 w-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center">
-                    <figure>
-                      <img src={uiImg} alt="" />
-                    </figure>
-                  </div>
-                </div>
-              </div>
-            </div>
+          {/* Backend Development */}
+          <div className="bg-gray-100 p-6 rounded-lg shadow-lg flex flex-col items-center">
+            <figure className="mb-4">
+              <img src={backendImg} alt="Backend Development" className="w-16 h-16" />
+            </figure>
+            <h3 className="text-primaryColor font-semibold text-xl mb-3">
+              Backend Development
+            </h3>
+            <p className="text-gray-700 text-sm text-center">
+              Skilled in server-side programming using Node.js and Express.js to
+              build robust backend applications.
+            </p>
+          </div>
+
+          {/* Other Tools */}
+          <div className="bg-gray-100 p-6 rounded-lg shadow-lg flex flex-col items-center">
+            <figure className="mb-4">
+              <img src={uiImg} alt="Other Tools" className="w-16 h-16" />
+            </figure>
+            <h3 className="text-primaryColor font-semibold text-xl mb-3">
+              Other Tools
+            </h3>
+            <p className="text-gray-700 text-sm text-center">
+              Experienced with Netlify, Heroku, GitHub, and MongoDB Atlas for
+              efficient deployment and development workflows.
+            </p>
           </div>
         </div>
       </div>
