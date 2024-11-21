@@ -19,7 +19,7 @@ const portfolios = [
     siteUrl: "#",
     frontendUrl: "https://github.com/SachinChauhan402/stackoverflow-frontend",
     backendUrl: "https://github.com/SachinChauhan402/sobackend",
-    deployedUrl: "https://monumental-cucurucho-92fa8c.netlify.app/auth",
+    deployedUrl: "https://meek-vacherin-ff7028.netlify.app/auth",
   },
   {
     id: "02",
@@ -45,7 +45,7 @@ const portfolios = [
     siteUrl: "#",
     frontendUrl: "https://github.com/SachinChauhan402/Web-scraping-frontend",
     backendUrl: "https://github.com/SachinChauhan402/Webscraping-backend",
-    deployedUrl: "https://astounding-mousse-2a9b6d.netlify.app/",
+    deployedUrl: "https://gorgeous-lily-6d3420.netlify.app/",
   },
 
   {
